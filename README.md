@@ -12,7 +12,7 @@ git clone --recurse-submodules https://github.com/ika-rwth-aachen/acdc.git
 
 After cloning, your local acdc directory should have the same contents like you can see in the following:
 
-'''
+```
 ├── assets
 │   └── header_image.png
 ├── bag
@@ -31,17 +31,17 @@ After cloning, your local acdc directory should have the same contents like you 
 ├── .gitlab-ci.yml
 ├── LICENSE
 └── README.md
-'''
+```
 
 ## Install Docker
 
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers are a standardized unit of software that allows developers to isolate their application from its environment and distribute safely it to any other environment. For the ACDC course, we created such a standardized container that allows every student to run our code without any manual installations of libraries or other programs. The requirements to use our container are an installation of Docker Version 19.03 or later.
 
-"""
+```
 https://docs.docker.com/engine/install/ubuntu/
-"""
+```
 Test your installation of docker with
-"""
+```
 sudo docker run hello-world
-"""
+```
 Now it should work without sudo(You need to restart your machine after the previous step):
