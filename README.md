@@ -6,9 +6,9 @@ If you have never used a Unix-Shell (terminal) before, we strongly suggest you t
 
 We suggest you to navigate to the directory ~/Documents which is located in you home directory and clone the acdc repository there with the following command
 
-''''
+'''
 git clone --recurse-submodules https://github.com/ika-rwth-aachen/acdc.git
-''''
+'''
 
 After cloning, your local acdc directory should have the same contents like you can see in the following:
 
